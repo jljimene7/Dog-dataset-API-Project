@@ -1,16 +1,16 @@
-# Dog API Explorer 🐶
+# Dog API Explorer
 
 This is a pre-work assignment project for Code the Dream's software engineering bootcamp. It uses [The Dog API](https://thedogapi.com/) to fetch and display:
 - A random dog image
 - A list of dog breeds with their temperaments
 
-## 🔐 API Key Setup
+## API Key Setup
 
 This project uses [The Dog API](https://thedogapi.com/) which requires an API key.
 
-To get your key and connect the app:
+To get your key do the following steps:
 1. Go to [https://thedogapi.com](https://thedogapi.com) and sign up for a free account
-2. Once logged in, copy your **API key** from the dashboard
+2. Once signed up an **API key** will be email to you or you can logged in and copy your **API key** from the dashboard
 3. In your local project folder, create a file named `.env`
 4. Inside that `.env` file, add the following line:
    ```env
