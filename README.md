@@ -30,7 +30,7 @@ To get your key, do the following steps:
 
 ## How to Run It Locally
 1. Clone this repository
-   -  ```bash
+   ```bash
    git clone https://github.com/jljimene7/Dog-dataset-API-Project.git
    cd Dog-dataset-API-Project
 3. Run:
