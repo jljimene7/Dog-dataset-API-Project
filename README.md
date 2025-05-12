@@ -2,7 +2,7 @@
 
 This is a pre-work assignment project for Code the Dream's software engineering bootcamp. It uses [The Dog API](https://thedogapi.com/) to fetch and display:
 - A random dog image
-- A list of dog breeds with their temperaments
+- A list of different dog breeds with their temperaments
 
 ## API Key Setup (with Visual Studio Code + Vite)
 
