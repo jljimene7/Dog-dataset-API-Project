@@ -6,9 +6,9 @@ This is a pre-work assignment project for Code the Dream's software engineering 
 
 ## API Key Setup (with Visual Studio Code + Vite)
 
-This project uses [The Dog API](https://thedogapi.com/) which requires an API key.
+This project uses [The Dog API](https://thedogapi.com/), which requires an API key.
 
-To get your key do the following steps:
+To get your key, do the following steps:
 1. Go to [https://thedogapi.com](https://thedogapi.com) and sign up for a free account
 
 2. After signing up: 
@@ -23,14 +23,17 @@ To get your key do the following steps:
    VITE_API_KEY= the-api-key-here
 
 ## Features
-- Button to show a new random dog image everytime is pressed
-- Button to show a list of 10 dog breeds everytime is pressed
+- A button to show a new random dog image every time it is pressed
+- A button to show a list of 10 dog breeds every time it is pressed
 - Built with HTML, CSS, JavaScript, and Vite
 - API key securely stored in a `.env` file (not uploaded to GitHub)
 
 ## How to Run It Locally
-1. Clone this repository  
-2. Run:
+1. Clone this repository
+   -  ```bash
+   git clone https://github.com/jljimene7/Dog-dataset-API-Project.git
+   cd Dog-dataset-API-Project
+3. Run:
    ```bash
    npm install
    npm run dev
