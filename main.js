@@ -44,12 +44,24 @@ document.addEventListener("DOMContentLoaded", () => {
             //).join("");
 
             // Create table rows for each breed with name and dog temperament
-            const tableRows = data.slice(0, 10).map(breed =>
+            // const tableRows = data.slice(0, 10).map(breed =>
+            //     `<tr>
+            //        <td><strong>${breed.name}</strong></td>
+            //        <td>${breed.temperament || "N/A"}</td>
+            //      </tr>`
+            //   ).join(""); // Combine all rows into one string 
+
+            // Shuffle the breed data to show a different 10 each time
+            const shuffled = data.sort(() => 0.5 - Math.random()); // Randomize the array order
+
+            // Select 10 random breeds from the shuffled list and build the table rows
+            const tableRows = shuffled.slice(0, 10).map(breed =>
                 `<tr>
-                   <td><strong>${breed.name}</strong></td>
-                   <td>${breed.temperament || "N/A"}</td>
-                 </tr>`
-              ).join(""); // Combine all rows into one string 
+                <td><strong>${breed.name}</strong></td>
+                <td>${breed.temperament || "N/A"}</td>
+                </tr>`
+            ).join(""); // Combine all rows into one string
+
 
               // Build a table with headers and insert it into the page
               dogBreedContainer.innerHTML = `
